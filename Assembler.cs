@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-///TIEP114-kurssin assembler.
 ///ohjelma toimii komentoriviargumenteilla muodossa Assembler <source> <destination>
 ///esim. Assembler Pong.asm Pong.hack
 ///@author Jere Honka
