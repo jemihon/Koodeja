@@ -8,6 +8,7 @@ void addchar(char s[], int n, int ind, int c);
 void copy(char s1[], char s2[], int lim);
 int countspaces(void);
 
+/* answers to exercises 1.20 & 1.21 from K&R */
 int main()
 {
     char line[MAXLINE];
@@ -18,6 +19,7 @@ int main()
     printf("%s", result);
 }
 
+/* replaces tabs in the input with the proper number of blanks */
 void detab(char s[], int lim, int n)
 {
     int i, c;
@@ -36,6 +38,7 @@ void detab(char s[], int lim, int n)
         
 }
 
+/* replaces blanks in the input with the proper number of tabs */
 void entab(char s[], int lim, int n)
 {
     int i, j, c, spaces, tabcount, spacecount;
@@ -64,6 +67,7 @@ void entab(char s[], int lim, int n)
     s[i] = '\0';
 }
 
+/* counts the number of consecutive spaces from in the input when the function is called */
 int countspaces(void)
 {
     int i, c, count;
@@ -74,6 +78,7 @@ int countspaces(void)
     return count;
 }
 
+/* adds the char c n times to array s from the index ind onwards */
 void addchar(char s[], int n, int ind, int c)
 {
     int i;
@@ -81,6 +86,7 @@ void addchar(char s[], int n, int ind, int c)
         s[i] = c;
 }
 
+/* copies the contents of s1 to s2*/
 void copy(char s1[], char s2[], int lim)
 {
     int i;
