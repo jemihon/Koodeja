@@ -8,12 +8,12 @@ int binCount(unsigned x);
 int main(void)
 {
     unsigned result;
-    unsigned lol = 16;
-    unsigned wew = 6;
-    //result = setbits(lol, 4, 3, wew);
-    int num = 185;
-    printf("%d", 0x1);
-    //printf("%d", setbits2(lol, 2, 3, wew));
+    unsigned u1 = 16;
+    unsigned u2 = 6;
+    //result = setbits(u1, 4, 3, u2);
+    //int num = 185;
+    
+    //printf("%d", setbits2(u1, 2, 3, u2));
 }
 
 unsigned setbits(unsigned x, int p, int n, unsigned y)
