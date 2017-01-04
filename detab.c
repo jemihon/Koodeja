@@ -67,7 +67,7 @@ void entab(char s[], int lim, int n)
     s[i] = '\0';
 }
 
-/* counts the number of consecutive spaces from in the input when the function is called */
+/* counts the number of consecutive spaces from the input when the function is called */
 int countspaces(void)
 {
     int i, c, count;
